@@ -13,7 +13,7 @@ Book.prototype.getSummary = function() {
 //getAge
 Book.prototype.getAge = function() {
     const years = new Date().getFullYear() - this.year;
-    return `${this.title} is ${years} years old`
+    return `${this.title} is ${years} years old`;
 }
 
 // Revise / Change Year
@@ -30,4 +30,4 @@ const book2 = new Book('Book Two', 'Jane Doe', '2016');
 
 console.log(book2);
 book2.revise('2018');
-console.log(book2)
+console.log(book2);
