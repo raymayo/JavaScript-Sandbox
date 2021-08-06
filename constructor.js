@@ -7,7 +7,7 @@ function Book(title, author, year) {
     this.getSummary = function() {
         return `${this.title} was written by ${this.author} om ${this.year}`;
     };
-}
+};
 
 // Instatiate an Obj
                     // (title,      author,     year)
